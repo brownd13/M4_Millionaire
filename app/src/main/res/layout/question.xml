@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/blue_900"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/tvEarned"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/titleSz"
+        android:textColor="@color/gold_500"
+        android:text="@string/earned" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gold_600"/>
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textSize="@dimen/QSz"
+        android:textColor="@color/bronze_500"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:orientation="vertical"
+        android:layout_weight="3"
+        android:layout_marginHorizontal="20dp">
+
+        <RadioButton
+            android:id="@+id/A1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="rbAnswerSelect"
+            android:textSize="@dimen/QSz"
+            android:textColor="@color/bronze_500"
+            />
+
+        <RadioButton
+            android:id="@+id/A2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="rbAnswerSelect"
+            android:textSize="@dimen/QSz"
+            android:textColor="@color/bronze_500"
+            />
+        <RadioButton
+            android:id="@+id/A3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="rbAnswerSelect"
+            android:textSize="@dimen/QSz"
+            android:textColor="@color/bronze_500"
+            />
+        <RadioButton
+            android:id="@+id/A4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="rbAnswerSelect"
+            android:textSize="@dimen/QSz"
+            android:textColor="@color/bronze_500"
+             />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buSubmit"
+        android:onClick="confirmAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:layout_gravity="center|top"
+        android:padding="5dp"
+        android:text="@string/buSubmit"
+        android:backgroundTint="@color/gold_600"
+        android:textColor="@color/blue_900"
+        android:textSize="30sp"
+        >
+    </Button>
+
+</LinearLayout>

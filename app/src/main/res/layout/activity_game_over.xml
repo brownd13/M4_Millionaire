@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black"
+    tools:context=".GameOverActivity">
+
+    <TextView
+        android:id="@+id/tvGameOver"
+        android:layout_width="wrap_content"
+        android:layout_height="0px"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textSize="@dimen/titleSz"
+        android:textColor="@color/bronze_500"
+        android:text="@string/gameOver"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="4"
+        android:alpha="0.5"
+        android:contentDescription="@string/logoGameOver"
+        android:src="@drawable/millionaire_logo"/>
+
+    <Button
+        android:onClick="exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:padding="10dp"
+        android:text="@string/buExit"
+        android:backgroundTint="@color/gold_600"
+        android:textColor="@color/blue_900"
+        android:textSize="25sp"
+        >
+    </Button>
+
+</LinearLayout>

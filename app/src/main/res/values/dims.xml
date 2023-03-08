@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="smallMargin">10dp</dimen>
+    <dimen name="titleSz">30sp</dimen>
+    <dimen name="QSz">20sp</dimen>
+    <dimen name="winSz">40sp</dimen>
+</resources>

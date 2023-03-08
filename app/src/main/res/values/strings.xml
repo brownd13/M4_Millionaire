@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">M4_Millionaire</string>
+    <string name="earned">Total Won: $</string>
+    <string name="buSubmit">Submit</string>
+    <string name="buContinue">Continue</string>
+    <string name="buExit">Exit</string>
+    <string name="haven">You have reached a safe haven with $</string>
+    <string name="gameOver">Sorry, the game is over.</string>
+    <string name="winner">Congratulations!\nYou have won\n$</string>
+    <string name="logoDesc">Who Wants to be a Millionaire</string>
+    <string name="logoHaven">Haven Reached!</string>
+    <string name="logoWinner">Winner!</string>
+    <string name="logoGameOver">Game over.</string>
+
+    <!-- Array of semicolon delimited question/answer sets.
+         Question content taken from a specific game played in 2020 available at:
+         https://www.theguardian.com/tv-and-radio/ng-interactive/2020/sep/12/who-wants-to-be-a-millionaire-jackpot-questions-quiz-yourself
+         -->
+    <string-array name="questions">
+        <item>In the UK, the abbreviation NHS stands for National what Service?;Humanity;Health;Honour;Household</item>
+        <item>Which Disney character famously leaves a glass slipper behind at a royal ball?;Pocahontas;Sleeping Beauty;Cinderella;Elsa</item>
+        <item>What name is given to the revolving belt machinery in an airport that delivers checked luggage from the plane to baggage reclaim?;Hangar;Terminal;Concourse;Carousel</item>
+        <item>Which of these brands was chiefly associated with the manufacture of household locks?;Phillips;Flymo;Chubb;Ronseal</item>
+        <item>The hammer and sickle is one of the most recognisable symbols of which political ideology?;Republicanism;Communism;Conservatism;Liberalism</item>
+        <item>Which toys have been marketed with the phrase “robots in disguise”?;Bratz Dolls;Sylvanian Families;Hatchimals;Transformers</item>
+        <item>What does the word loquacious mean?;Angry;Chatty;Beautiful;Shy</item>
+        <item>Obstetrics is a branch of medicine particularly concerned with what?;Childbirth;Broken bones;Heart conditions;Old age</item>
+        <item>In Doctor Who, what was the signature look of the fourth Doctor, as portrayed by Tom Baker?;Bow-tie, braces and tweed jacket;Wide-brimmed hat and extra long scarf;Pinstripe suit and trainers;Cape, velvet jacket and frilly shirt</item>
+        <item>Which of these religious observances lasts for the shortest period of time during the calendar year?;Ramadan;Diwali;Lent;Hanukkah</item>
+        <item>At the closest point, which island group is only 50 miles south-east of the coast of Florida?;Bahamas;US Virgin Islands;Turks and Caicos Islands;Bermuda</item>
+        <item>Construction of which of these famous landmarks was completed first?;Empire State Building;Royal Albert Hall;Eiffel Tower;Big Ben Clock Tower</item>
+        <item>Which of these cetaceans is classified as a “toothed whale”?;Gray whale;Minke whale;Sperm whale;Humpback whale</item>
+        <item>Who is the only British politician to have held all four “Great Offices of State” at some point during their career?;David Lloyd George;Harold Wilson;James Callaghan;John Major</item>
+        <item>In 1718, which pirate died in battle off the coast of what is now North Carolina?; Calico Jack;Blackbeard;Bartholomew Roberts;Captain Kidd</item>
+    </string-array>
+
+    <!-- Answer key, zero indexed corresponding to correct radio button selection. -->
+    <integer-array name="answerKey">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>adding video to android
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+    </integer-array>
+
+    <!-- Earnings available for each question. Score is not cumulative -->
+    <integer-array name="prizeValue">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>4000</item>
+        <item>8000</item>
+        <item>16000</item>
+        <item>32000</item>
+        <item>64000</item>
+        <item>125000</item>
+        <item>250000</item>
+        <item>500000</item>
+        <item>1000000</item>
+    </integer-array>
+
+</resources>
